@@ -25,7 +25,7 @@ from nltk.stem.porter import PorterStemmer
 # NOTE: keep this file private — don't push it to a public repo with the key in it.
 GEMINI_API_KEY = os.environ.get(
     "GEMINI_API_KEY",
-    "Api-key",
+    "your_key_here",
 )
 GEMINI_MODEL = "gemini-2.5-flash"
 MODEL_PATH = "trained_model.sav"
